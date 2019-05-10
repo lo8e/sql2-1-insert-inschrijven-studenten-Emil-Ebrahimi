@@ -11,3 +11,10 @@ VALUES (90111, 'Stinson','','Zacky'),
 (90222,'Appels','','Koop'),
 (90333,'Azulu','','Abu'),
 (90444,'Svert','','Schwuen');
+
+INSERT INTO klassen_studenten
+(klas_code, ov_nummer)
+VALUES ('l09e-amo1', 90111),
+('l09e-amo2', 90222),
+('l09e-amo3', 90333),
+('l09e-amo3', 90444);
