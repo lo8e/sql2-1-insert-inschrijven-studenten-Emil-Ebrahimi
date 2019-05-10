@@ -26,3 +26,6 @@ WHERE ov_nummer = 90111;
 UPDATE studenten 
 SET actief = 'false'
 WHERE inschrijvings_datum < '1-1-2017';
+
+SELECT * FROM studenten
+WHERE actief = 'true';
